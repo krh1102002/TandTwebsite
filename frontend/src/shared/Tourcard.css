@@ -55,8 +55,21 @@
     font-size: 1.1rem;
     font-weight: 700;
 }
-.card__bottom span{
+.card__bottom h5 span{
     font-weight: 500;
     color: var(--text-color);
     font-size:.8rem ;
+}
+.booking__btn{
+    background: var(--secondary-color) !important;
+    cursor: pointer;
+    padding: 0.2rem 0.5rem !important;
+}
+.booking__btn a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #fff;
+}
+.booking__btn a:hover{
+    color: #fff;
 }
