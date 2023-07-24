@@ -79,3 +79,18 @@ height: 2.3rem;
     margin-top: .7rem;
     color: var(--text-color) !important;
 }
+.experience__img{
+    width: 90% !important;
+}
+.gallery__title{
+    font-size: 2.3rem;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+}
+.masonary__img{
+    transition: 0.3s;
+
+}
+.masonary__img:hover{
+    transform: scale(1.1);
+}
