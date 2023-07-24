@@ -40,10 +40,7 @@ const Testimonials = () => {
     <Slider {...settings}>
       <div className="testimonial py-4 px-3">
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-          voluptates modi facere totam, ducimus velit officiis exercitationem at
-          saepe a iure quibusdam veritatis eligendi dolorum reiciendis
-          laboriosam officia, dicta ex?
+        I recently used TandT to book a trip to India. I was very impressed with the website's ease of use and the helpfulness of the customer service team.I would definitely recommend TandT to anyone looking to book a trip.
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
           <img src={ava01} className="w-25 h-25 rounded-2" alt="" />
@@ -55,10 +52,7 @@ const Testimonials = () => {
       </div>
       <div className="testimonial py-4 px-3">
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-          voluptates modi facere totam, ducimus velit officiis exercitationem at
-          saepe a iure quibusdam veritatis eligendi dolorum reiciendis
-          laboriosam officia, dicta ex?
+        I recently used TandT to book a trip to Indonesia for my family of four. TandT had a wide variety of itineraries to choose from, and we were able to find one that perfectly suited our needs
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
           <img src={ava02} className="w-25 h-25 rounded-2" alt="" />
@@ -70,10 +64,7 @@ const Testimonials = () => {
       </div>
       <div className="testimonial py-4 px-3">
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-          voluptates modi facere totam, ducimus velit officiis exercitationem at
-          saepe a iure quibusdam veritatis eligendi dolorum reiciendis
-          laboriosam officia, dicta ex?
+        The website was very easy to use, and the customer service team was extremely helpful. We were also able to make changes to our itinerary at the last minute, and the staff was able to make the necessary arrangements without any problems
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
           <img src={ava03} className="w-25 h-25 rounded-2" alt="" />
@@ -85,10 +76,7 @@ const Testimonials = () => {
       </div>
       <div className="testimonial py-4 px-3">
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-          voluptates modi facere totam, ducimus velit officiis exercitationem at
-          saepe a iure quibusdam veritatis eligendi dolorum reiciendis
-          laboriosam officia, dicta ex?
+        We had a wonderful time on our trip. The accommodations were excellent, the food was delicious, and we saw some amazing sights. We would definitely recommend TandT to anyone looking to book a trip to Thailand.
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
           <img src={ava04} className="w-25 h-25 rounded-2" alt="" />
@@ -100,10 +88,7 @@ const Testimonials = () => {
       </div>
       <div className="testimonial py-4 px-3">
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-          voluptates modi facere totam, ducimus velit officiis exercitationem at
-          saepe a iure quibusdam veritatis eligendi dolorum reiciendis
-          laboriosam officia, dicta ex?
+        I had a great experience booking my trip through [website name]. The website was easy to use, and the customer service team was very helpful.
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
           <img src={ava05} className="w-25 h-25 rounded-2" alt="" />
@@ -115,10 +100,7 @@ const Testimonials = () => {
       </div>
       <div className="testimonial py-4 px-3">
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-          voluptates modi facere totam, ducimus velit officiis exercitationem at
-          saepe a iure quibusdam veritatis eligendi dolorum reiciendis
-          laboriosam officia, dicta ex?
+        I had a wonderful time on my trip to Thailand. TandT made the planning process easy and stress-free
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
           <img src={ava06} className="w-25 h-25 rounded-2" alt="" />
