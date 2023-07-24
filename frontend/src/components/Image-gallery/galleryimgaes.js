@@ -8,6 +8,6 @@ import galleryImg07 from '../../assets/images/gallery-07.jpg'
 import galleryImg08 from '../../assets/images/gallery-08.jpeg'
 
 const galleryImages=[
-    galleryImg01,galleryImg02,galleryImg03,galleryImg04,galleryImg05 ,galleryImg07, galleryImg06,galleryImg08
+    galleryImg01,galleryImg02,galleryImg08,galleryImg04,galleryImg03 ,galleryImg07, galleryImg06,galleryImg05
 ]
 export default galleryImages

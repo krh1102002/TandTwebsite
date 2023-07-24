@@ -13,6 +13,7 @@ import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
 import experienceImg from ".././assets/images/experience.png";
 import MasonaryImgGallery from "../components/Image-gallery/masonaryImgGallery";
+import Testimonials from "../components/Testimonials/Testimonials";
 const Home = () => {
   const [counterOn, serCounterOn] = useState(false);
   return (
@@ -134,7 +135,7 @@ const Home = () => {
                   <div className="counter__box">
                     <span>
                       {counterOn && (
-                        <CountUp start={0} end={15} delay={0} duration={3} />
+                        <CountUp start={0} end={15} delay={0} duration={4} />
                       )}
                     </span>
                     <h6>Years Experience</h6>
@@ -168,6 +169,23 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+
+
+      {/* Testomonial section start  */}
+
+    <section>
+      <Container>
+        <Row>
+          <Col lg="12">
+              <Subtitle subtitle='Fans Love'/>
+              <h2 className="testimonial__title">What our fans say about us</h2>
+          </Col>
+          <Col lg="12">
+            <Testimonials/>
+          </Col>
+        </Row>
+      </Container>
+    </section>
     </>
   );
 };
