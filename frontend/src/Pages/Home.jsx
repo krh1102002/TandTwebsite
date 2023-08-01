@@ -14,6 +14,7 @@ import ScrollTrigger from "react-scroll-trigger";
 import experienceImg from ".././assets/images/experience.png";
 import MasonaryImgGallery from "../components/Image-gallery/masonaryImgGallery";
 import Testimonials from "../components/Testimonials/Testimonials";
+import Newsletter from "../shared/Newsletter";
 const Home = () => {
   const [counterOn, serCounterOn] = useState(false);
   return (
@@ -135,7 +136,7 @@ const Home = () => {
                   <div className="counter__box">
                     <span>
                       {counterOn && (
-                        <CountUp start={0} end={15} delay={0} duration={4} />
+                        <CountUp start={0} end={15} delay={0} duration={3} />
                       )}
                     </span>
                     <h6>Years Experience</h6>
@@ -186,6 +187,10 @@ const Home = () => {
         </Row>
       </Container>
     </section>
+ 
+
+          {/* newsletter constraints  */}
+    <Newsletter/>
     </>
   );
 };

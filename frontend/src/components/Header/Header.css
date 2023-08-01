@@ -28,7 +28,7 @@
     color: var(--heading-color);
     display: none;
 }
-.sticky_header{
+.sticky__header{
     width: 100%;
     height: 80px;
     line-height: 80px;
