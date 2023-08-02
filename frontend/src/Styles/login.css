@@ -4,7 +4,7 @@
     text-align: center;
 }
 .login__img img{
-    width: 84% !important;
+    width: 81% ;
     object-fit: contain;
 }
 .login__form{
@@ -31,7 +31,8 @@
 .login__form h2{
     color: #fff;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .login__form{
     width: 40%;

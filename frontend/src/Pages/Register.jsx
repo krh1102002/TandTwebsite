@@ -4,7 +4,7 @@ import { Container, Row, Col, Form, FormGroup, Button } from "reactstrap";
 import { Link } from "react-router-dom";
 import registerImg from "../assets/images/register.png";
 import userIcon from "../assets/images/user.png";
-import "../Styles/register.css";
+import "../Styles/login.css";
 const Register = () => {
   const [credentials, setCredentials] = useState({
     email: undefined,
@@ -26,10 +26,10 @@ const Register = () => {
           <Col lg="8" className="m-auto">
             <div className="login__container d-flex justify-content-between">
               <div className="login__img">
-                <img src={registerImg} alt="Login Img" />
+                <img src={registerImg} alt="Login Img" style={{width:"100%"}} />
                 </div>
 
-                <div className="login__form">
+                <div className="login__form" style={{width:"44%"}}>
                 <div className="user">
                   <img src={userIcon} alt="User Icon" />
                   </div>
