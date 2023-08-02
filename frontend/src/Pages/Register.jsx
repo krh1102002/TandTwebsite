@@ -20,7 +20,7 @@ const Register = () => {
   };
 
   return (
-    <section>
+    <section style={{padding:"0px"}}>
       <Container>
         <Row>
           <Col lg="8" className="m-auto">
