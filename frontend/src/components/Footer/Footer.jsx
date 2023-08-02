@@ -39,8 +39,8 @@ const Footer = () => {
         <Row>
           <Col lg="3">
             <div className="logo">
-              <img src={logo} style={{width:"50%",marginBottom:"1rem"}} alt="logo img" />
-              <p >
+              <img src={logo} style={{width:"68%",marginBottom:".6rem"}} alt="logo img" />
+              <p>
                 Lorem ipsum, dolor sit amet consectetur Lorem ipsum dolor sit,
                 amet consectetur adipisicing elit. Maxime, voluptates.
                 adipisicing elit. Suscipit, magnam nisi quidem qui aliquam esse?
